@@ -1,0 +1,56 @@
+{
+  "name": "@system76/nuxt-appsignal",
+  "version": "0.0.0-development",
+  "description": "Appsignal integration with Nuxt",
+  "author": "System76 <hosting@system76.com> (https://system76.com)",
+  "license": "GPL-3.0",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "ava",
+    "commit": "git-cz",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/system76/nuxt-appsignal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/system76/nuxt-appsignal/issues"
+  },
+  "keywords": [
+    "appsignal",
+    "express",
+    "frontend",
+    "nuxt",
+    "system76",
+    "vue"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@appsignal/express": "0.1.0-alpha.3",
+    "@appsignal/javascript": "^1.1.1",
+    "@appsignal/nodejs": "0.1.0-alpha.7",
+    "@appsignal/plugin-breadcrumbs-console": "^1.0.2",
+    "@appsignal/plugin-breadcrumbs-network": "^1.0.0",
+    "@appsignal/plugin-path-decorator": "^1.0.0",
+    "@appsignal/plugin-window-events": "^1.0.0",
+    "@appsignal/vue": "^1.0.0"
+  },
+  "devDependencies": {
+    "@system76/eslint-config": "^3.0.0",
+    "ava": "^3.3.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0",
+    "semantic-release": "^17.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
