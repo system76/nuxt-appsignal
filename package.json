@@ -31,9 +31,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@appsignal/express": "0.1.0-alpha.3",
+    "@appsignal/express": "0.1.0-alpha.4",
     "@appsignal/javascript": "^1.1.1",
-    "@appsignal/nodejs": "0.1.0-alpha.7",
+    "@appsignal/nodejs": "0.1.0-alpha.8",
     "@appsignal/plugin-breadcrumbs-console": "^1.0.2",
     "@appsignal/plugin-breadcrumbs-network": "^1.0.0",
     "@appsignal/plugin-path-decorator": "^1.0.0",
