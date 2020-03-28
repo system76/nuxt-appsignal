@@ -31,10 +31,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@appsignal/express": "0.1.0-alpha.4",
-    "@appsignal/javascript": "^1.1.1",
-    "@appsignal/nodejs": "0.1.0-alpha.8",
-    "@appsignal/plugin-breadcrumbs-console": "^1.0.2",
+    "@appsignal/express": "0.1.0",
+    "@appsignal/javascript": "^1.1.2",
+    "@appsignal/nodejs": "0.1.0",
+    "@appsignal/plugin-breadcrumbs-console": "^1.0.3",
     "@appsignal/plugin-breadcrumbs-network": "^1.0.0",
     "@appsignal/plugin-path-decorator": "^1.0.0",
     "@appsignal/plugin-window-events": "^1.0.0",
@@ -42,11 +42,11 @@
   },
   "devDependencies": {
     "@system76/eslint-config": "^3.0.0",
-    "ava": "^3.3.0",
+    "ava": "^3.5.1",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.1.0",
     "eslint": "^6.8.0",
-    "semantic-release": "^17.0.3"
+    "semantic-release": "^17.0.4"
   },
   "config": {
     "commitizen": {
